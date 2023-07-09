@@ -1138,8 +1138,20 @@ html {
 #tm-preloader-in div {
     width: 20px;
     height: 20px;
-    background-color: #2caee2;
-    border-radius: 50% 50% 50% 50%;
+    background: linear-gradient(
+            to bottom,
+            transparent 35%,
+            #2caee2 35%,
+            #2caee2 65%,
+            transparent 65%
+        ),
+        linear-gradient(
+            to right,
+            transparent 35%,
+            #2caee2 35%,
+            #2caee2 65%,
+            transparent 65%
+        );
     margin-right: 20px;
     position: absolute;
 }
@@ -1637,7 +1649,7 @@ html {
     padding-top: 100px;
 }
 .start {
-    padding-top: 100px
+    padding-top: 100px;
 }
 .slider-text h1 {
     font-family: inherit;
