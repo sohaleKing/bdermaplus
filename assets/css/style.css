@@ -377,7 +377,45 @@ html {
 .col-xs-b250 {
     margin-bottom: 250px;
 }
-
+.coming-soon {
+    height: 100vh;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.language-selector {
+    float: right;
+    padding: 15px 15px;
+}
+.ot-countdown {
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    margin-bottom: 0;
+    color: #000;
+}
+.ot-countdown li {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.ot-countdown li span {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin-bottom: 23px;
+}
+.ot-countdown li p {
+    margin-bottom: 0;
+}
+.ot-countdown li.seperator {
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: -8px;
+    color: #232d84;
+}
 .empty-space.col-xs-b0 {
     height: 0;
     margin-bottom: 0;
