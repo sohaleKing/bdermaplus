@@ -146,7 +146,7 @@
     var topLimit = 300,
       ultimateOffset = 200;
 
-    $('.tm-onepage-nav').each(function () {
+    $('.tm-oncurrentpage-nav').each(function () {
       var $this = $(this),
         $parent = $this.parent(),
         current = null,

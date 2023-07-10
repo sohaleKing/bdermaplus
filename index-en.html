@@ -7,8 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="B Derma Plus" />
         <meta name="description" content="Medical Esthetician, Skin Care" />
-        <!--TODO: add all services
-    <meta name="keywords" content="Medical Esthetician, Skin Care, ..............">-->
+        <meta name="keywords" content="Medical Esthetician, Skin Care" />
         <!-- Page Title -->
         <title>
             BDermaPlus - Medical Esthetician - Skin Care - B Derma Plus
@@ -38,12 +37,30 @@
             <div class="tm-site-header">
                 <div class="tm-header-info-wrap">
                     <div class="container tm-header-info">
-                        <a href="#"
-                            ><i class="fa fa-phone"></i>1-514-452-0176</a
-                        >
+                        <a href="#"><i class="fa fa-phone"></i>514-452-0176</a>
                         <a href="#"
                             ><i class="fa fa-envelope"></i
                             >client@bdermaplus.ca</a
+                        >
+                        <a>
+                            <form action="" id="language-selector">
+                                <select
+                                    name="languages"
+                                    id="languages"
+                                    onchange="changeLanguage(this.value)"
+                                >
+                                    <option
+                                        value="english"
+                                        id="english"
+                                        selected
+                                    >
+                                        English
+                                    </option>
+                                    <option value="french" id="french">
+                                        Français
+                                    </option>
+                                </select>
+                            </form></a
                         >
                     </div>
                 </div>
@@ -51,7 +68,7 @@
                     <div class="container tm-header-menu-container">
                         <div class="tm-site-branding">
                             <!-- For Image Logo -->
-                            <a href="index.html" class="tm-logo-link">
+                            <a href="index-en.html" class="tm-logo-link">
                                 <img
                                     src="assets/img/logo-w.png"
                                     alt=""
@@ -59,145 +76,76 @@
                                 />
                             </a>
                             <!-- For Site Title -->
-                            <!-- <span class="tm-site-title">
-                        <a href="index.html">Trustlife</a>
-                        </span> -->
                         </div>
-                        <nav class="tm-primary-nav tm-onepage-nav">
+                        <nav class="tm-primary-nav tm-oncurrentpage-nav">
                             <ul class="tm-primary-nav-list">
-                                <li
-                                    class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"
-                                >
+                                <li class="menu-item">
                                     <a
-                                        href="#home"
+                                        href="index-en.html"
                                         class="nav-link tm-smooth-move"
                                         >HOME</a
                                     >
-                                    <ul>
-                                        <li class="menu-item current-menu-item">
-                                            <a href="index.html"
-                                                >Home1 (Default Version)</a
-                                            >
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-version-2.html"
-                                                >Home2 (Animation Version)</a
-                                            >
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-version-3.html"
-                                                >Home3 (Full Width Banner)</a
-                                            >
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-version-4.html"
-                                                >Home4 (Ripple Version)</a
-                                            >
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-version-5.html"
-                                                >Home5 (Parallax Version)</a
-                                            >
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-version-6.html"
-                                                >Home6 (Slider Version)</a
-                                            >
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-version-7.html"
-                                                >Home7 (Youtube Background)</a
-                                            >
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-version-8.html"
-                                                >Home8 (Minimal Version)</a
-                                            >
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="menu-item">
                                     <a
-                                        href="#about"
+                                        href="about-en.html"
                                         class="nav-link tm-smooth-move"
                                         >ABOUT</a
                                     >
                                 </li>
                                 <li class="menu-item">
                                     <a
-                                        href="#department"
+                                        href="services-en.html"
                                         class="nav-link tm-smooth-move"
-                                        >DEPARTMENT</a
+                                        >SERVICES</a
                                     >
                                 </li>
                                 <li class="menu-item">
                                     <a
-                                        href="#gallery"
+                                        href="products-en.html"
                                         class="nav-link tm-smooth-move"
-                                        >GALLERY</a
-                                    >
-                                </li>
-                                <li class="menu-item">
-                                    <a
-                                        href="#price"
-                                        class="nav-link tm-smooth-move"
-                                        >PRICE</a
+                                        >PRODUCTS</a
                                     >
                                 </li>
                                 <li class="menu-item menu-item-has-children">
                                     <a
-                                        href="#blog"
+                                        href="learning-en.html"
                                         class="nav-link tm-smooth-move"
-                                        >BLOG</a
+                                        >LEARNING</a
                                     >
                                     <ul>
                                         <li class="menu-item">
-                                            <a href="blog-right-sidebar.html"
-                                                >Blog Right Sidebar</a
-                                            >
+                                            <a href="#">LEARNING1</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="blog-left-sidebar.html"
-                                                >Blog Left Sidebar</a
-                                            >
+                                            <a href="#">LEARNING2</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="blog-full-width.html"
-                                                >Blog Full Width</a
-                                            >
+                                            <a href="#">LEARNING3</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a
-                                                href="blog-details-right-sidebar.html"
-                                                >Single Blog Image Post</a
-                                            >
+                                            <a href="#">LEARNING4</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a
-                                                href="blog-details-left-sidebar.html"
-                                                >Single Blog Slider Post</a
-                                            >
+                                            <a href="#">LEARNING5</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a
-                                                href="blog-details-full-width.html"
-                                                >Single Blog Video Post</a
-                                            >
+                                            <a href="#">LEARNING6</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item">
                                     <a
-                                        href="#contact"
+                                        href="contact-en.html"
                                         class="nav-link tm-smooth-move"
                                         >CONTACT</a
                                     >
                                 </li>
                                 <li class="menu-item">
                                     <a
-                                        href="#appointment"
+                                        href="package-promotion-en.html"
                                         class="nav-link tm-smooth-move"
-                                        >APPOINTMENT</a
+                                        >PACKAGE & PROMOTION</a
                                     >
                                 </li>
                             </ul>
@@ -238,7 +186,7 @@
                         class="empty-space col-md-b55 col-sm-b35 col-xs-b25"
                     ></div>
                     <div class="tm-hero-btn">
-                        <a href="#appointment" class="tm-btn1">APPOINTMENT</a>
+                        <a href="#" class="tm-btn1">APPOINTMENT</a>
                     </div>
                 </div>
             </div>
@@ -417,20 +365,16 @@
                                         <i class="fa fa-facebook-square"></i>
                                     </a>
                                     <a href="#" class="tm-social-btn blue">
-                                        <i class="fa fa-google-plus-square"></i>
-                                        <i class="fa fa-google-plus-square"></i>
-                                    </a>
-                                    <a href="#" class="tm-social-btn blue">
-                                        <i class="fa fa-twitter-square"></i>
-                                        <i class="fa fa-twitter-square"></i>
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-instagram"></i>
                                     </a>
                                     <a href="#" class="tm-social-btn blue">
                                         <i class="fa fa-linkedin-square"></i>
                                         <i class="fa fa-linkedin-square"></i>
                                     </a>
                                     <a href="#" class="tm-social-btn blue">
-                                        <i class="fa fa-skype"></i>
-                                        <i class="fa fa-skype"></i>
+                                        <i class="fa fa-whatsapp"></i>
+                                        <i class="fa fa-whatsapp"></i>
                                     </a>
                                 </div>
                             </div>
@@ -445,8 +389,8 @@
                     <div class="row row-sm-reverce">
                         <div class="col-md-7 col-lg-8">
                             <p class="tm-copyright">
-                                Copyright © 2018 TRUSTLIFE. Designed by
-                                thememarch
+                                Copyright © B Derma Plus Inc. All Rights
+                                Reserved
                             </p>
                         </div>
                         <!-- .col -->
@@ -456,8 +400,8 @@
                                     <div class="tm-phone-icon">
                                         <i class="fa fa-mobile"></i>
                                     </div>
-                                    <h3>Toll Free</h3>
-                                    <p>1-800-915-6270</p>
+                                    <h3>Any Question?</h3>
+                                    <p>514-452-0176</p>
                                 </div>
                             </div>
                         </div>
@@ -476,5 +420,16 @@
         <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
+        <script defer>
+            //TODO: adding the localstorage for language
+            const changeLanguage = (selected) => {
+                if (selected === "english") {
+                    location.href = "http://bdermaplus.ca/index-en.html";
+                }
+                if (selected === "french") {
+                    location.href = "http://bdermaplus.ca/index.html";
+                }
+            };
+        </script>
     </body>
 </html>

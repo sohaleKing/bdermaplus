@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="B Derma Plus" />
+        <meta name="description" content="Medical Esthetician, Skin Care" />
+        <!--TODO: add all services
+    <meta name="keywords" content="Medical Esthetician, Skin Care, ..............">-->
+        <!-- Page Title -->
+        <title>
+            BDermaPlus - Medical Esthetician - Skin Care - B Derma Plus
+        </title>
+        <!-- Favicon Icon -->
+        <link rel="icon" href="assets/img/favicon.ico" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    </head>
+
+    <body>
+        <!-- Start Site Header Wrap -->
+        <header class="tm-header2">
+            <div class="tm-site-header">
+                <div class="tm-header-info-wrap">
+                    <div class="container tm-header-info">
+                        <a href="#"
+                            ><i class="fa fa-phone"></i>+1-514-452-0176</a
+                        >
+                        <a href="#"
+                            ><i class="fa fa-envelope"></i
+                            >client@bdermaplus.ca</a
+                        >
+                        <a>
+                            <form action="" id="language-selector">
+                                <select
+                                    name="languages"
+                                    id="languages"
+                                    onchange="changeLanguage(this.value)"
+                                >
+                                    <option
+                                        value="english"
+                                        id="english"
+                                        selected
+                                    >
+                                        English
+                                    </option>
+                                    <option value="french" id="french">
+                                        Français
+                                    </option>
+                                </select>
+                            </form></a
+                        >
+                    </div>
+                </div>
+                <div class="tm-header-menu">
+                    <div class="container tm-header-menu-container">
+                        <div class="tm-site-branding">
+                            <!-- For Image Logo -->
+                            <a href="index.html" class="tm-logo-link">
+                                <img
+                                    src="assets/img/logo-w.png"
+                                    alt=""
+                                    class="tm-logo"
+                                />
+                            </a>
+                            <!-- For Site Title -->
+                        </div>
+                        <nav class="tm-primary-nav">
+                            <ul class="tm-primary-nav-list">
+                                <li class="menu-item">
+                                    <a
+                                        href="index-en.html"
+                                        class="nav-link tm-smooth-move"
+                                        >HOME</a
+                                    >
+                                </li>
+                                <li class="menu-item">
+                                    <a
+                                        href="about-en.html"
+                                        class="nav-link tm-smooth-move"
+                                        >ABOUT</a
+                                    >
+                                </li>
+                                <li class="menu-item">
+                                    <a
+                                        href="services-en.html"
+                                        class="nav-link tm-smooth-move"
+                                        >SERVICES</a
+                                    >
+                                </li>
+                                <li class="menu-item">
+                                    <a
+                                        href="products-en.html"
+                                        class="nav-link tm-smooth-move"
+                                        >PRODUCTS</a
+                                    >
+                                </li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a
+                                        href="learning-en.html"
+                                        class="nav-link tm-smooth-move"
+                                        >LEARNING</a
+                                    >
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">LEARNING1</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">LEARNING2</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">LEARNING3</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">LEARNING4</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">LEARNING5</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">LEARNING6</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item active">
+                                    <a
+                                        href="contact-en.html"
+                                        class="nav-link tm-smooth-move"
+                                        >CONTACT</a
+                                    >
+                                </li>
+                                <li class="menu-item">
+                                    <a
+                                        href="package-promotion-en.html"
+                                        class="nav-link tm-smooth-move"
+                                        >PACKAGE & PROMOTION</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- .tm-header-menu-container -->
+                </div>
+                <!-- .tm-header-menu -->
+            </div>
+            <!-- .tm-site-header -->
+        </header>
+        <!-- End Site Header Wrap -->
+
+        <!-- Start Gallery Section -->
+        <section id="gallery">
+            <div class="empty-space col-md-b100 col-xs-b70"></div>
+            <div class="tm-section-heading text-center">
+                <h2>View our Gallery</h2>
+                <div class="tm-section-seperator"><span></span></div>
+                <div class="empty-space col-md-b60 col-xs-b40"></div>
+            </div>
+            <div class="tm-portfolio-filter text-center">
+                <ul>
+                    <li class="active"><a href="#" data-filter="*">ALL</a></li>
+                    <li>
+                        <a href="#" data-filter=".cardiology">CARDIOLOGY</a>
+                    </li>
+                    <li><a href="#" data-filter=".neurology">NEUROLOGY</a></li>
+                    <li><a href="#" data-filter=".urology">UROLOGY</a></li>
+                    <li><a href="#" data-filter=".pulmonary">PULMONARY</a></li>
+                    <li>
+                        <a href="#" data-filter=".traumatology">TRAUMATOLOGY</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- .tm-portfolio-filter-area -->
+            <div class="tm-portfolio zoom-gallery tm-gutter-less">
+                <div class="tm-grid-sizer"></div>
+                <div class="tm-portfolio-item neurology">
+                    <a href="assets/img/portfolio-01-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-01.jpg"
+                            alt="portfolio-01"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+                <div class="tm-portfolio-item urology traumatology">
+                    <a href="assets/img/portfolio-02-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-02.jpg"
+                            alt="portfolio-02"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+                <div class="tm-portfolio-item cardiology pulmonary">
+                    <a href="assets/img/portfolio-03-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-03.jpg"
+                            alt="portfolio-03"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+                <div class="tm-portfolio-item neurology traumatology">
+                    <a href="assets/img/portfolio-04-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-04.jpg"
+                            alt="portfolio-04"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+                <div class="tm-portfolio-item urology">
+                    <a href="assets/img/portfolio-05-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-05.jpg"
+                            alt="portfolio-05"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+                <div class="tm-portfolio-item cardiology neurology pulmonary">
+                    <a href="assets/img/portfolio-06-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-06.jpg"
+                            alt="portfolio-06"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+                <div class="tm-portfolio-item urology pulmonary">
+                    <a href="assets/img/portfolio-07-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-07.jpg"
+                            alt="portfolio-07"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+                <div class="tm-portfolio-item cardiology traumatology">
+                    <a href="assets/img/portfolio-08-lg.jpg" class="item-inner">
+                        <img
+                            src="assets/img/portfolio-08.jpg"
+                            alt="portfolio-08"
+                        />
+                        <div class="tm-zoom-btn"></div>
+                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                    </a>
+                </div>
+                <!-- .tm-portfolio-item -->
+            </div>
+            <!-- .portfolio -->
+        </section>
+        <!-- End Gallery Section -->
+
+        <!-- Start Department Section -->
+        <section class="tm-gray-bg" id="department">
+            <div class="empty-space col-md-b100 col-xs-b70"></div>
+            <div class="tm-section-heading text-center">
+                <h2>Our Department</h2>
+                <div class="tm-section-seperator"><span></span></div>
+                <div class="empty-space col-md-b60 col-xs-b40"></div>
+            </div>
+            <div class="container">
+                <div class="tm-tab-wrap">
+                    <div class="tm-tabs-wrap">
+                        <ul class="tabs">
+                            <li>
+                                <i class="icofont icofont-tooth"></i>DENTAL CARE
+                            </li>
+                            <li>
+                                <i class="icofont icofont-brain"></i>NEUROLOGY
+                            </li>
+                            <li>
+                                <i class="icofont icofont-crutches"></i>CRUTCHES
+                            </li>
+                            <li>
+                                <i class="icofont icofont-pulse"></i>CARDIOLOGY
+                            </li>
+                            <li>
+                                <i class="icofont icofont-lungs"></i>PULMONARY
+                            </li>
+                            <li><i class="icofont icofont-xray"></i>X-RAY</li>
+                        </ul>
+                        <!-- .tabs -->
+                    </div>
+                    <div class="empty-space col-md-b60 col-xs-b40"></div>
+                    <div class="tm-tab-content">
+                        <div class="tm-tabs-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-img">
+                                        <img
+                                            src="assets/img/1.dental.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-details-wrap">
+                                        <div class="tm-about tm-gray-bg">
+                                            <h3 class="tm-about-title">
+                                                Welcome to our
+                                                <span>DENTAL CARE</span>
+                                            </h3>
+                                            <div class="tm-about-text">
+                                                <p>
+                                                    More than 15 years, The
+                                                    Dental Health Care Center
+                                                    has practiced with one goal:
+                                                    to ensure our patients
+                                                    achieve a high level of oral
+                                                    health with as much comfort
+                                                    as possible.
+                                                </p>
+                                                <p>
+                                                    We don’t just provide great
+                                                    dentistry, we make sure you
+                                                    understand all facets of
+                                                    your oral health.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="empty-space col-xs-b25"
+                                            ></div>
+                                            <div class="tm-about-btn">
+                                                <a href="#" class="tm-btn1"
+                                                    >READ MORE</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                            </div>
+                        </div>
+                        <!-- .tabs_item -->
+                        <div class="tm-tabs-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-img">
+                                        <img
+                                            src="assets/img/2.neurology.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-details-wrap">
+                                        <div class="tm-about tm-gray-bg">
+                                            <h3 class="tm-about-title">
+                                                Welcome to our
+                                                <span>NEUROLOGY</span>
+                                            </h3>
+                                            <div class="tm-about-text">
+                                                <p>
+                                                    Our Neurology deparment of
+                                                    Trustlife Hospital serves as
+                                                    the receiving point for the
+                                                    most seriously injured
+                                                    people from across the
+                                                    country and treats patients
+                                                    with brain and spine.
+                                                </p>
+                                                <p>
+                                                    In addition to being a
+                                                    centre of excellence, the
+                                                    Neurology deparment aims to
+                                                    be an asset to national and
+                                                    international communities.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="empty-space col-xs-b25"
+                                            ></div>
+                                            <div class="tm-about-btn">
+                                                <a href="#" class="tm-btn1"
+                                                    >READ MORE</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                            </div>
+                        </div>
+                        <!-- .tabs_item -->
+                        <div class="tm-tabs-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-img">
+                                        <img
+                                            src="assets/img/3.crutches.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-details-wrap">
+                                        <div class="tm-about tm-gray-bg">
+                                            <h3 class="tm-about-title">
+                                                Welcome to our
+                                                <span>CRUTCHES</span>
+                                            </h3>
+                                            <div class="tm-about-text">
+                                                <p>
+                                                    It is important to start
+                                                    walking as soon as you can
+                                                    after your surgery. But you
+                                                    will need support for
+                                                    walking while your leg
+                                                    heals. Trustlife may be a
+                                                    good choice after a leg
+                                                    injury or surgery if you
+                                                    only need a little help with
+                                                    balance and stability.
+                                                </p>
+                                                <p>
+                                                    Crutches are also useful
+                                                    when your leg is only a
+                                                    little weak or painful.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="empty-space col-xs-b25"
+                                            ></div>
+                                            <div class="tm-about-btn">
+                                                <a href="#" class="tm-btn1"
+                                                    >READ MORE</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                            </div>
+                        </div>
+                        <!-- .tabs_item -->
+                        <div class="tm-tabs-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-img">
+                                        <img
+                                            src="assets/img/4.cardiology.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-details-wrap">
+                                        <div class="tm-about tm-gray-bg">
+                                            <h3 class="tm-about-title">
+                                                Welcome to our
+                                                <span>CARDIOLOGY</span>
+                                            </h3>
+                                            <div class="tm-about-text">
+                                                <p>
+                                                    Cardiology department is
+                                                    served dedicately 24/7 and
+                                                    it is the only hospital of
+                                                    Kanada where emergency
+                                                    angioplasty can be carried
+                                                    out round the clock.
+                                                </p>
+                                                <p>
+                                                    Cardiology department is
+                                                    operated by a strong and
+                                                    dedicated team of 3
+                                                    cardiologists, And they has
+                                                    more then 20 years of
+                                                    expericnce.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="empty-space col-xs-b25"
+                                            ></div>
+                                            <div class="tm-about-btn">
+                                                <a href="#" class="tm-btn1"
+                                                    >READ MORE</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                            </div>
+                        </div>
+                        <!-- .tabs_item -->
+                        <div class="tm-tabs-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-img">
+                                        <img
+                                            src="assets/img/5.pulmones.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-details-wrap">
+                                        <div class="tm-about tm-gray-bg">
+                                            <h3 class="tm-about-title">
+                                                Welcome to our
+                                                <span>PULMONARY</span>
+                                            </h3>
+                                            <div class="tm-about-text">
+                                                <p>
+                                                    More than 15 years ago, we
+                                                    pioneered the first
+                                                    hospitals in the nation to
+                                                    specialize in pulmonary
+                                                    treatment, so you can feel
+                                                    confident when your loved
+                                                    one is under our care.
+                                                </p>
+                                                <p>
+                                                    Today, our expertise
+                                                    continues to be pulmonary
+                                                    disease management and
+                                                    providing quality treatment
+                                                    based on the latest
+                                                    protocols.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="empty-space col-xs-b25"
+                                            ></div>
+                                            <div class="tm-about-btn">
+                                                <a href="#" class="tm-btn1"
+                                                    >READ MORE</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                            </div>
+                        </div>
+                        <!-- .tabs_item -->
+                        <div class="tm-tabs-item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-img">
+                                        <img
+                                            src="assets/img/6.xray.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                                <div class="col-lg-6">
+                                    <div class="tm-dept-details-wrap">
+                                        <div class="tm-about tm-gray-bg">
+                                            <h3 class="tm-about-title">
+                                                Welcome to our
+                                                <span>X-RAY</span>
+                                            </h3>
+                                            <div class="tm-about-text">
+                                                <p>
+                                                    We have the high-quality
+                                                    x-ray machine and our
+                                                    technique is so much
+                                                    experienced. We delivered
+                                                    x-ray report within one
+                                                    hour.
+                                                </p>
+                                                <p>
+                                                    After handover x-ray report
+                                                    we give initial advice of an
+                                                    experienced doctor and
+                                                    suggest related experienced
+                                                    doctor.
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="empty-space col-xs-b25"
+                                            ></div>
+                                            <div class="tm-about-btn">
+                                                <a href="#" class="tm-btn1"
+                                                    >READ MORE</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .col -->
+                            </div>
+                        </div>
+                        <!-- .tabs_item -->
+                    </div>
+                    <!-- .tm-tab-content -->
+                </div>
+                <!-- .tab -->
+            </div>
+            <div class="empty-space col-md-b100 col-xs-b70"></div>
+        </section>
+        <!-- End Department Section -->
+
+        <!-- Start Pricing Seciton -->
+        <section id="price">
+            <div class="empty-space col-md-b100 col-xs-b70"></div>
+            <div class="tm-section-heading text-center">
+                <h2>PRICING PLANS</h2>
+                <div class="tm-section-seperator"><span></span></div>
+                <div class="empty-space col-md-b60 col-xs-b40"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div
+                            class="tm-pricing-carousel owl-carousel tm-nam-tm-style1 tm-dots1"
+                        >
+                            <div class="tm-price-list tm-gray-bg">
+                                <div class="tm-price">
+                                    <h3>$25</h3>
+                                </div>
+                                <h2 class="tm-pricing-heading">Blood Test</h2>
+                                <ul class="tm-test-list">
+                                    <li>First Description</li>
+                                    <li>Second Description</li>
+                                    <li>Third Description</li>
+                                    <li>Fourth Description</li>
+                                    <li>Fifth Description</li>
+                                </ul>
+                                <a href="#" class="tm-btn1">CONTACT NOW</a>
+                            </div>
+                            <!-- .tm-price-list -->
+                            <div class="tm-price-list tm-gray-bg">
+                                <div class="tm-price">
+                                    <h3>$30</h3>
+                                </div>
+                                <h2 class="tm-pricing-heading">
+                                    Hemoglobin Test
+                                </h2>
+                                <ul class="tm-test-list">
+                                    <li>First Description</li>
+                                    <li>Second Description</li>
+                                    <li>Third Description</li>
+                                    <li>Fourth Description</li>
+                                    <li>Fifth Description</li>
+                                </ul>
+                                <a href="#" class="tm-btn1">CONTACT NOW</a>
+                            </div>
+                            <!-- .tm-price-list -->
+                            <div class="tm-price-list tm-gray-bg">
+                                <div class="tm-price">
+                                    <h3>$70</h3>
+                                </div>
+                                <h2 class="tm-pricing-heading">Homocysteine</h2>
+                                <ul class="tm-test-list">
+                                    <li>First Description</li>
+                                    <li>Second Description</li>
+                                    <li>Third Description</li>
+                                    <li>Fourth Description</li>
+                                    <li>Fifth Description</li>
+                                </ul>
+                                <a href="#" class="tm-btn1">CONTACT NOW</a>
+                            </div>
+                            <!-- .tm-price-list -->
+                            <div class="tm-price-list tm-gray-bg">
+                                <div class="tm-price">
+                                    <h3>$24</h3>
+                                </div>
+                                <div class="pricing-shap"></div>
+                                <h2 class="tm-pricing-heading">X-Ray</h2>
+                                <ul class="tm-test-list">
+                                    <li>First Description</li>
+                                    <li>Second Description</li>
+                                    <li>Third Description</li>
+                                    <li>Fourth Description</li>
+                                    <li>Fifth Description</li>
+                                </ul>
+                                <a href="#" class="tm-btn1">CONTACT NOW</a>
+                            </div>
+                            <!-- .tm-price-list -->
+                        </div>
+                    </div>
+                    <!-- .col -->
+                </div>
+                <!-- .row -->
+            </div>
+            <div class="empty-space col-md-b100 col-xs-b70"></div>
+        </section>
+        <!-- End Pricing Seciton -->
+
+        <!-- Start Footer -->
+        <footer class="tm-overflow-hidden">
+            <div class="tm-gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="tm-footer-social">
+                                <h2>Follow Us</h2>
+                                <div class="tm-footer-social-list">
+                                    <a href="#" class="tm-social-btn blue">
+                                        <i class="fa fa-facebook-square"></i>
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a href="#" class="tm-social-btn blue">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                    <a href="#" class="tm-social-btn blue">
+                                        <i class="fa fa-linkedin-square"></i>
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                    <a href="#" class="tm-social-btn blue">
+                                        <i class="fa fa-whatsapp"></i>
+                                        <i class="fa fa-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .col -->
+                    </div>
+                </div>
+            </div>
+            <div class="tm-site-footer">
+                <div class="container">
+                    <!-- row-md-reverce -->
+                    <div class="row row-sm-reverce">
+                        <div class="col-md-7 col-lg-8">
+                            <p class="tm-copyright">
+                                Copyright © B Derma Plus Inc. All Rights
+                                Reserved
+                            </p>
+                        </div>
+                        <!-- .col -->
+                        <div class="col-md-5 col-lg-4">
+                            <div class="tm-footer-hotline">
+                                <div class="tm-footer-hotline-in">
+                                    <div class="tm-phone-icon">
+                                        <i class="fa fa-mobile"></i>
+                                    </div>
+                                    <h3>Any Question?</h3>
+                                    <p>514-452-0176</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .col -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <!-- Scroll Up -->
+        <div id="scrollup"></div>
+
+        <!-- Scripts -->
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script defer>
+            //TODO: adding the localstorage for language
+            const changeLanguage = (selected) => {
+                if (selected === "english") {
+                    location.href = "http://bdermaplus.ca/services-en.html";
+                }
+                if (selected === "french") {
+                    location.href = "http://bdermaplus.ca/services.html";
+                }
+            };
+        </script>
+    </body>
+</html>

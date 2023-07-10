@@ -1,6 +1,6 @@
 <?php
 
-$to 		= 'tamjid.storerepublic@gmail.com';
+$to 		= 'your@gmail.com';
 $headers	= 'FROM: "'.$email.'"';
 
 //All form values
